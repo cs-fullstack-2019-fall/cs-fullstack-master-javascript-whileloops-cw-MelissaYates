@@ -10,13 +10,13 @@ while(counter<=5){
 //
 //     CW2
 //     Write a While loop that counts backwards from 10 to 0 Log the current count at the end of each iteration EXCEPT if the current count is 5
-// var x = 10;
-// while(x>= 0) {
-//  if(x>5 || x<5){
-//      console.log(x);
-//  }
-//     x--;
-// }
+var x = 10;
+while(x>= 0) {
+ if(x>5 || x<5){
+     console.log(x);
+ }
+    x--;
+}
 
 // HINT: Use continue
 //
@@ -24,10 +24,10 @@ while(counter<=5){
 // Asks the user Enter a word. Enter 'q' to quit. Create a while loop that will not quit until they enter 'q'.
 
 //
-// while(userEntry !=="q"){
-//     var userEntry = prompt("Please enter a word");
-//     if (userEntry =="abcdefghijklmnoprstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ"){
-//         prompt("Please enter a word");
-//     }
-// }
+while(userEntry !=="q"){
+    var userEntry = prompt("Please enter a word");
+    if (userEntry =="abcdefghijklmnoprstuvwxyzABCDEFGHIJKLMNOPRSTUVWXYZ"){
+        prompt("Please enter a word");
+    }
+}
 
